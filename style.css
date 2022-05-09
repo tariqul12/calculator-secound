@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  height: auto;
+  max-height: 900px;
+  background-color: #fff;
+}
+.form-wrap {
+  height: auto;
+  margin: 0px 0px;
+  padding: 5px 10px 50px 10px;
+  background-color: rgb(240, 240, 240);
+}
+.form-head {
+  background-color: teal;
+  display: block;
+  margin: 0px 0px 5px 5px;
+  color: #fff;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 900;
+  text-align-last: left;
+}
+form {
+  width: auto;
+  margin: 0px 40px;
+}
+.form-header {
+  color: teal;
+  padding: 10px;
+  text-align: center;
+}
+.form-control {
+  padding: 5px 10px;
+  width: 100%;
+  border-collapse: collapse;
+}
+.form-control input,
+select {
+  width: 100%;
+  border: 1px solid teal;
+  padding: 5px 3px;
+  border-radius: 5px;
+}
+.Calculate {
+  text-align: center;
+  margin-top: 10px;
+}
+.Calculate button {
+  padding: 5px;
+  border: 1px solid teal;
+  background-color: #fff;
+  cursor: pointer;
+}
+.Calculate span {
+  border: 1px solid teal;
+  padding: 5px;
+  margin-left: 10px;
+  display: none;
+}
+.colorWheel-Weap {
+  height: 300px;
+  background-color: teal;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 100px;
+}
+.color-head {
+  margin-bottom: 20px;
+}
